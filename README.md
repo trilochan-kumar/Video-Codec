@@ -11,5 +11,10 @@ ffmpeg -i input.mp4 -c:v libaom-av1 -strict experimental output.mkv
 
 #### The following gives the x264 compression of the video:
 ```
-ffmpeg -i input.mp4 -o output.mkv
+ffmpeg -i input.mp4 output.mkv
+```
+
+### The following command is for VP9 compression of the video:
+```
+ffmpeg -i input.mp4 -c:v libvpx-vp9 output.mkv
 ```
