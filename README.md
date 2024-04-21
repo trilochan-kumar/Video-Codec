@@ -30,6 +30,7 @@ ffmpeg -i input.mp4 output.mpeg
 | Time       | Very less | Less   | Less | More |
 | Efficiency | Very Less | Less   | Less | High | 
 | Quality    | Very Poor | Good   | Good | Good |
+| Test on 3MB Video | 2.3 MB | 2.9 MB | 2.1 MB | 1.46 MB |
 
 ### Input Video Codec Information:
 ![Input video codec info](https://github.com/trilochan-kumar/Video-Codec/assets/126813766/0fe22307-7f1e-44a7-8cce-fe9ae06889b3)
