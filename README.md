@@ -13,3 +13,8 @@ ffmpeg -i input.mp4 -c:v libaom-av1 -strict experimental output.mkv
 ```
 ffmpeg -i input.mp4 -o output.mkv
 ```
+
+### The following command is for VP9 compression of the video:
+```
+ffmpeg -i input.mp4 -c:v libvpx-vp9 -o output.mkv
+```
