@@ -28,7 +28,7 @@ ffmpeg -i input.mp4 output.mpeg
 | Feature    | MPEG      | H.264  | VP9  | AV1  |
 |------------|-----------|--------|------|------|
 | Time       | Very less | Less   | Less | More |
-| Efficiency | Less | Less   | Less | High | 
+| Efficiency | Less | Less   | Moderate | High | 
 | Quality    | Very Poor | Good   | Good | Good |
 | Test on 16-sec Video | 2.3 MB | 2.8 MB | 2.1 MB | 1.46 MB |
 
