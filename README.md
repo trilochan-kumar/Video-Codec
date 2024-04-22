@@ -24,7 +24,7 @@ ffmpeg -i input.mp4 -c:v libvpx-vp9 output.mkv
 ffmpeg -i input.mp4 output.mpeg
 ```
 
-### The following command is used to decompress and play the video:
+### We can check the decompression using:
 ```
 ffplay input.mp4
 ```
