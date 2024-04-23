@@ -29,6 +29,11 @@ ffmpeg -i input.mp4 output.mpeg
 ffplay input.mp4
 ```
 
+### Video to raw images
+```
+ffmpeg -i input.mp4 bmp/output_%04d.bmp
+```
+
 ### Comparision Among Codecs:
 | Feature    		| MPEG      | H.264  		| VP9  	| AV1  	|
 |---------------------|-----------|--------------|---------|----------|
